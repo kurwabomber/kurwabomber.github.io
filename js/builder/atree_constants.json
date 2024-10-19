@@ -28,7 +28,7 @@
                         {
                             "name": "Arrow Bomb",
                             "type": "damage",
-                            "multipliers": [ 130, 0, 0, 0, 20, 0 ]
+                            "multipliers": [ 140, 0, 0, 0, 20, 0 ]
                         },
                         {
                             "name": "Self Damage",
@@ -1096,7 +1096,7 @@
                         "name": "damMult.Focus"
                     },
                     "scaling": [
-                        12
+                        15
                     ],
                     "slider_max": 3
                 }
@@ -3002,7 +3002,7 @@
                             "name": "Single Hit",
                             "type": "damage",
                             "multipliers": [
-                                150,
+                                170,
                                 30,
                                 0,
                                 0,
@@ -8361,12 +8361,11 @@
                 "cooldown": 15
             },
             "effects": [
-
-                    {
-                        "type": "raw_stat",
-                        "toggle": "Activate Clones",
-                        "bonuses": [{ "type": "stat", "name": "defMult.Clone", "value": 60}]
-                    }
+                {
+                    "type": "raw_stat",
+                    "toggle": "Activate Clones",
+                    "bonuses": [{ "type": "stat", "name": "defMult.Clone", "value": 60}]
+                }
             ]
         },
         {
@@ -8388,7 +8387,6 @@
                 "col": 7,
                 "icon": "node_3"
             },
-            "properties": {},
             "effects": [
                 {
                     "type": "replace_spell",
